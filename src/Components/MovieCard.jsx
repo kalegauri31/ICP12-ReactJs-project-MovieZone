@@ -1,8 +1,11 @@
 import { Clock, Dot } from 'lucide-react'; 
+import { useNavigate } from "react-router";
+import Button from './Button';
 
 function MovieCard({
     image, name, type, language, year, duration
 }) {
+    let navigate=useNavigate();
     return (
         <div className='md:w-[30%] w-[90%] bg-[#234C6A] shadow-md rounded-[10px] overflow-hidden shadow-lg'>
             <div className=" h-[320px]" >
@@ -22,6 +25,11 @@ function MovieCard({
                 <div className='flex items-center gap-5 text-gray-400'>
                 <span className='border rounded-2xl px-2 py-1 border-gray-500 bg-[#2c506b]'>{type}</span>
                 <span className='border rounded-2xl px-2 py-1 border-gray-500 bg-[#2c506b]'>{language}</span>
+                </div>
+                 <div className='my-2'>
+                    <Button title={"Book Now"} variant='primary' size='lg' onClick={()=>{
+                        navigate("/booking")
+                    }}/>
                 </div>
                
             </div>
