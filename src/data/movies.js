@@ -1,3 +1,5 @@
+import aarpar from "../assets/movieImages/aarpar.jpg"
+import war2 from "../assets/movieImages/war2.jpg"
 
 const movies=[
    
@@ -41,7 +43,7 @@ const movies=[
     duration:"2h 41min"
   },
  {
-        image:"https://m.media-amazon.com/images/M/MV5BNjY5OTg4NTYtZjVkZS00YTZmLWIwNDEtM2Y0ODQyMzM2NTJiXkEyXkFqcGc@._V1_.jpg",
+        image:war2,
         name:"War 2",
         type:"Action",
         language:"Hindi",
@@ -101,6 +103,13 @@ const movies=[
     image: "https://upload.wikimedia.org/wikipedia/en/6/66/Dashavatar_Marathi_movie.jpg",
     name: "Dashavatar",
     type: "Thriller",
+    language: "Marathi",
+    year: "2025",
+    duration:"2h 35min"
+  },{
+     image: aarpar,
+    name: "Aarpar",
+    type: "Romance",
     language: "Marathi",
     year: "2025",
     duration:"2h 35min"
