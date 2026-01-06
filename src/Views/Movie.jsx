@@ -22,6 +22,14 @@ function Movie() {
     const [searchMovies, setSearchMovies]= useState("");
      const [movieType, setMovieType] = useState("All");
       const [movieLang, setMovieLang] = useState("All");
+
+ const filteredMovies=movies.filter((movie)=>{
+    const newMatch=movie.name.toLowerCase().includes(searchMovies.toLowerCase());
+    const typeMatch=movieType=== "All" || movie.type === movieType;
+    const languageMatch=movieLang=== "All" || movie.language === movieLang;
+    return typeMatch && languageMatch && newMatch;
+});
+
     return (
         <div className='bg-[#1B3C53] min-h-screen'>
             <div className='flex flex-col w-[100%]  md:flex-row gap-5 items-center justify-center  p-10 '>
