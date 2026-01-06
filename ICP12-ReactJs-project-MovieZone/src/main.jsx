@@ -13,25 +13,19 @@ import Payment from './Views/Payment.jsx';
 import Register from './Views/Register.jsx';
 import SeatSelection from './Views/SeatSelection.jsx';
 
-function App() {
-  return (<SeatSelection />);
-}
-
-export default App;
 
 const root = createRoot (document.getElementById("root"));
 root.render(
-<StrictMode>
 <BrowserRouter>
 <Routes>
-    <Route path="/" element={<h1>HOME</h1>}/>
-    <Route path="/about" element={<h1>About</h1>}/>
-    <Route path="/booking" element={<h1>Booking</h1>}/>
-    <Route path="/login" element={<h1>Login</h1>}/>
-    <Route path="/movie" element={<h1>Movie</h1>}/>
-    <Route path="/payment" element={<h1>Payment</h1>}/>
-    <Route path="/register" element={<h1>Register</h1>}/>
-    <Route path="/seatselection" element={<h1>SeatSelection</h1>}/>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/about" element={<About/>}/>
+    <Route path="/booking" element={<Booking/>}/>
+    <Route path="/login" element={<Login/>}/>
+    <Route path="/movie" element={<Movie/>}/>
+    <Route path="/payment" element={<Payment/>}/>
+    <Route path="/register" element={<Register/>}/>
+    <Route path="/seatselection" element={<SeatSelection/>}/>
 </Routes>
 </BrowserRouter>
-</StrictMode>);
+);
