@@ -1,10 +1,8 @@
-import aarpar from "../assets/movieImages/aarpar.jpg"
-import war2 from "../assets/movieImages/war2.jpg"
 
 const movies=[
    
     {
-         image:"https://preview.redd.it/sitaare-zameen-par-first-poster-out-now-v0-yy6grbmcrwye1.jpeg?auto=webp&s=b81e1b1caabadc84a200c52b9173af3e3a9ef48a",
+         image:"/movieImages/sitareJameenPar.jpg",
         name:"Sitaare Zameen Par",
         type:"Comedy",
         language:"Hindi",
@@ -12,7 +10,7 @@ const movies=[
         duration:"1h 48min"
     },
       {
-    image: "https://upload.wikimedia.org/wikipedia/en/9/95/Avatar_Fire_and_Ash_poster.jpeg",
+    image: "/movieImages/avtar3.jpg",
     name: "Avatar 3",
     type: "Action",
     language: "English",
@@ -35,7 +33,7 @@ const movies=[
     duration:"2h 20min"
   },
   {
-    image: "https://i.pinimg.com/736x/fc/c7/a9/fcc7a9ab8bef27bf0f14e392bd8b3f91.jpg",
+    image: "/movieImages/chaava.jpg",
     name: "Chhaava",
     type: " Drama",
     language: "Hindi",
@@ -43,14 +41,14 @@ const movies=[
     duration:"2h 41min"
   },
  {
-        image:war2,
+        image:"/movieImages/war2.jpg",
         name:"War 2",
         type:"Action",
         language:"Hindi",
         year:"2025",
         duration:"2h 5min"
     },{
-         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjKe9GXjwPrP7zJxKpBz3_S9lxMgXhLEZEuw&s",
+         image:"/movieImages/dhurandar.jpg",
         name:"Dhurandhar",
         type:"Action",
         language:"Hindi",
@@ -74,7 +72,7 @@ const movies=[
     duration:"3h 2 min"
   },
   {
-    image: "https://sm.ign.com/ign_in/movie/default/mv5bnzhkmjfhotitmtczni00ywm1ltlhzjitotc4ota0owvhztizxkeyxkfq_7ckm.jpg",
+    image: "/movieImages/narsimha.jpg",
     name: "Mahavatar Narsimha",
     type: "Action",
     language: "Tamil",
@@ -82,7 +80,7 @@ const movies=[
     duration:"2h 34min"
   },
   {
-    image: "https://media-cache.cinematerial.com/p/500x/dkorfn0x/kantara-2-indian-movie-poster.jpg?v=1701089214",
+    image: "/movieImages/kantar.jpg",
     name: "Kantara",
     type: "Action",
     language: "Tamil",
@@ -100,17 +98,46 @@ const movies=[
     duration:"2h 23min"
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/en/6/66/Dashavatar_Marathi_movie.jpg",
+    image: "/movieImages/dashavtar.jpg",
     name: "Dashavatar",
     type: "Thriller",
     language: "Marathi",
     year: "2025",
     duration:"2h 35min"
   },{
-     image: aarpar,
+     image: "/movieImages/aarpar.jpg",
     name: "Aarpar",
     type: "Romance",
     language: "Marathi",
+    year: "2025",
+    duration:"2h 35min"
+  },
+  {
+     image: "/movieImages/stree2.jpg",
+    name: "Stree 2",
+    type: "Horror",
+    language: "Hindi",
+    year: "2024",
+    duration:"2h 29min"
+  },{
+     image: "/movieImages/phulwanti.jpg",
+    name: "Phullwanti",
+    type: "Drama",
+    language: "Marathi",
+    year: "2024",
+    duration:"2h 14min"
+  },{
+     image: "/movieImages/tuumbad.jpg",
+    name: "Tumbbad",
+    type: "Horor",
+    language: "Marathi",
+    year: "2018 ",
+    duration:"1h 44min"
+  },{
+     image: "/movieImages/3idiots.jpg",
+    name: "3 Idiots",
+    type: "Comedy",
+    language: "Hindi",
     year: "2025",
     duration:"2h 35min"
   }
