@@ -9,7 +9,7 @@ function MovieCard({
               <img  
                     src={image}
                     alt={name}
-                    className="w-full h-full object-cover cursor-pointer hover:scale-[1.05] duration-300  rounded-[10px]"
+                    className="w-full h-full  cursor-pointer hover:scale-[1.05] duration-300  rounded-[10px]"
                 />
             </div>
             <div className="flex flex-col border-t border-t-[#456882] gap-3 items-start text-[#E3E3E3] p-5">

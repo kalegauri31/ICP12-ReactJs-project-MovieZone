@@ -1,22 +1,8 @@
 
 const movies=[
+   
     {
-        image:"https://m.media-amazon.com/images/M/MV5BNjY5OTg4NTYtZjVkZS00YTZmLWIwNDEtM2Y0ODQyMzM2NTJiXkEyXkFqcGc@._V1_.jpg",
-        name:"War 2",
-        type:"Action",
-        language:"Hindi",
-        year:"2025",
-        duration:"2h 5min"
-    },{
-         image:"https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=400&h=600&fit=crop",
-        name:"Dhurandhar",
-        type:"Action",
-        language:"Hindi",
-        year:"2025",
-        duration:"1h 45 min"
-    },
-    {
-         image:"https://images.unsplash.com/photo-1514306191717-452ec28c7814?w=400&h=600&fit=crop",
+         image:"https://preview.redd.it/sitaare-zameen-par-first-poster-out-now-v0-yy6grbmcrwye1.jpeg?auto=webp&s=b81e1b1caabadc84a200c52b9173af3e3a9ef48a",
         name:"Sitaare Zameen Par",
         type:"Comedy",
         language:"Hindi",
@@ -47,14 +33,28 @@ const movies=[
     duration:"2h 20min"
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ9lpZ656p0xdUvM0hvciZlAGH8fjsSidlMg&s",
+    image: "https://i.pinimg.com/736x/fc/c7/a9/fcc7a9ab8bef27bf0f14e392bd8b3f91.jpg",
     name: "Chhaava",
     type: " Drama",
     language: "Hindi",
     year: "2025",
     duration:"2h 41min"
   },
-
+ {
+        image:"https://m.media-amazon.com/images/M/MV5BNjY5OTg4NTYtZjVkZS00YTZmLWIwNDEtM2Y0ODQyMzM2NTJiXkEyXkFqcGc@._V1_.jpg",
+        name:"War 2",
+        type:"Action",
+        language:"Hindi",
+        year:"2025",
+        duration:"2h 5min"
+    },{
+         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjKe9GXjwPrP7zJxKpBz3_S9lxMgXhLEZEuw&s",
+        name:"Dhurandhar",
+        type:"Action",
+        language:"Hindi",
+        year:"2025",
+        duration:"1h 45 min"
+    },
   {
     image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=400&h=600&fit=crop",
     name: "Love in Tokyo",
@@ -80,7 +80,7 @@ const movies=[
     duration:"2h 34min"
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gIYVwWCZSVvwT64FLRaW3TQ-GM0RoN4Esg&s",
+    image: "https://media-cache.cinematerial.com/p/500x/dkorfn0x/kantara-2-indian-movie-poster.jpg?v=1701089214",
     name: "Kantara",
     type: "Action",
     language: "Tamil",
