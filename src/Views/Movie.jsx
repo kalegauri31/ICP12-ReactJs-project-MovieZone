@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
+import movies from '../data/movies';
+import MovieCard from '../Components/MovieCard';
 
 const SelectBox = ({ value, onChange, options }) => {
     return (
@@ -41,6 +43,15 @@ function Movie() {
                         options={["All", "English", "Hindi", "Marathi", "Tamil"]}
                     />
             </div>
+
+             <div className='flex gap-10 p-7 items-center justify-center flex-wrap '>
+                {
+                    movies.map((movie, index)=>{
+                        return(
+                         <MovieCard key={index} {...movie} />
+                    )})
+                }
+             </div>
         </div>
     )
 }
